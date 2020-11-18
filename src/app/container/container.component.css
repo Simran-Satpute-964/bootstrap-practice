@@ -1,0 +1,27 @@
+.container {
+  background-color: palegreen;
+}
+
+.container-sm {
+    background-color: palegoldenrod;
+}
+
+.container-md {
+    background-color: lightsalmon;
+}
+
+.container-lg {
+    background-color: lightblue;
+}
+
+.container-xl {
+    background-color: lightcoral;
+}
+
+.container-fluid {
+  background-color: paleturquoise;
+}
+
+.col {
+  border: 1px solid;
+}
