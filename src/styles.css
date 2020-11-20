@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* @import url('https://unpkg.com/browse/bootstrap@4.5.3/dist/css/bootstrap.min.css'); */
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
+
+/* Overriding styles of bootstrap:
+      - Go to bootstrap.css file search for specific component like breadcrumb
+      - Analyze its styles and override the same in this file */
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+}
