@@ -1,4 +1,18 @@
 h3, h6 {
   text-align: center;
+  margin: 20px;
 }
 
+hr {
+  margin-bottom: 40px;
+}
+/* For images
+.card {
+  margin: 0 auto;
+} */
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
