@@ -56,4 +56,5 @@ export class BootstrapcomponentComponent implements OnInit, OnChanges {
 
     form.classList.add('was-validated');
   }
+
 }

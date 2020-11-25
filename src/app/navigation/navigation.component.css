@@ -1,0 +1,6 @@
+
+.activatedTab {
+  border-radius: 10px;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(195,195,195,1) 100%);
+}
