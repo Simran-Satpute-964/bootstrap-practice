@@ -15,6 +15,7 @@ import {
 export class BootstrapcomponentComponent implements OnInit, OnChanges {
   counter: number = 0;
   @ViewChild('input') input: ElementRef;
+  @ViewChild('PopOverButton') PopOverButton: ElementRef;
 
   constructor() {}
 
@@ -56,5 +57,4 @@ export class BootstrapcomponentComponent implements OnInit, OnChanges {
 
     form.classList.add('was-validated');
   }
-
 }
